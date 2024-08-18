@@ -27,5 +27,6 @@ The data from the AIMA textbook.  The "restaurant_decision_tree.ipynb" notebook 
 A high-level overview of the machine learning process as I understand it.  I first drew this diagram by hand then gave a PNG version to ChatGPT.  I asked for graphviz code that would reproduce the hand-drawn diagram.  I would say it got it about 90% correct.  I then fixed the errors and added a few more enhancements to the graphviz code that ChatGPT gave me.
 
 The final product:
+
 ![Machine Learning overview diagram](ml_overview.png)
 
