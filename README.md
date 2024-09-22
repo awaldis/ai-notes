@@ -30,3 +30,5 @@ The final product:
 
 ![Machine Learning overview diagram](ml_overview.png)
 
+## context_embed_exploration.ipynb
+An experiment with BERT contextual embeddings. The purpose is to examine how a word used in slightly different sentences but with the same meaning can still get a similarity score of less than one.  Also, I added some sentences which use that same word with a different meaning and verified that their similarity scores are much less than one.
