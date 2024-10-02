@@ -32,3 +32,6 @@ The final product:
 
 ## context_embed_exploration.ipynb
 An experiment with BERT contextual embeddings. The purpose is to examine how a word used in slightly different sentences but with the same meaning can still get a similarity score of less than one.  Also, I added some sentences which use that same word with a different meaning and verified that their similarity scores are much less than one.
+
+## linear_regression_house_price.ipynb
+This is an experiment that calculates a linear regression analytically, then attempts to "learn" the slope/intercept parameters using gradient descent.  The analytically determined parameters serve as "ground truth" that allow me to determine how well various gradient descent algorithms and parameters worked.  I first tried my own naïve ideas that modified the learning rate as the training process ran.  These did not work very well.  I then copied in code that implemented the "Adam" optimizer and this worked much better.  It locked in on the true slope/intercept at about 20,000 iterations without much tuning. 
